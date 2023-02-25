@@ -36,7 +36,8 @@ fun MovieScreen(viewModel: MovieSearchViewModel) {
             },
             colors = TextFieldDefaults.textFieldColors(
                 disabledIndicatorColor = Color.Transparent,
-                focusedIndicatorColor = Color.Transparent
+                focusedIndicatorColor = Color.Transparent,
+                backgroundColor = Color.Transparent
             ), placeholder = { Text(text = "Search Movie...") }, trailingIcon = {
                 Icon(
                     imageVector = Icons.Default.Search,

@@ -10,7 +10,8 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.feature.movie.ui.navigation.screen.ui.theme.MovieAppYoutubeTheme
+import com.feature.movie.ui.navigation.theme.MovieAppYoutubeTheme
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
