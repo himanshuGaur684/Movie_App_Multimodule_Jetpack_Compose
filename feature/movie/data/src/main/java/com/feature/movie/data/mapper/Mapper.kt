@@ -5,7 +5,7 @@ import com.feature.movie.domain.model.Movie
 
 fun MovieListResponse.toDomainMovieList():List<Movie>{
     return this.results.map {
-        Movie(makeFullUrl( it.poster_path))
+        Movie(makeFullUrl( it.poster_path),it.id.toString())
     }
 }
 
