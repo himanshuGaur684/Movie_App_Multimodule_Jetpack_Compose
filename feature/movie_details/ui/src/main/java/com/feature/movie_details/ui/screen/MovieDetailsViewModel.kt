@@ -23,7 +23,7 @@ class MovieDetailsViewModel @Inject constructor(
     private val _movieDetails = mutableStateOf(MovieDetailsStateHolder())
     val movieDetails: State<MovieDetailsStateHolder> get() = _movieDetails
 
-    val API_KEY="02f440e85f7722d198a3559061c88d6f"
+    val API_KEY=""
 
     init {
         savedStateHandle.getLiveData<String>("id").observeForever {
